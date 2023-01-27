@@ -1,0 +1,21 @@
+to set up git:
+git config --global user.name "chad Fautt"
+git config --global user.email "cwf30@psu.edu"
+
+**** --global tag makes these settings apply to entire computer, so only needs to be done once.
+
+git init
+
+**** initializes git repository in current directory
+
+git status
+
+**** general info about state of current repository
+
+git add readme.txt
+
+**** tells get to start tracking this file
+
+git commit -m "created readme"
+
+**** take snapshot of files in directory, -m is a message describing changes for current commit
